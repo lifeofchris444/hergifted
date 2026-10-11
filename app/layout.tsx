@@ -9,11 +9,11 @@ const inter = Inter({
   variable: "--font-inter",
 })
 
-const SITE_URL = "https://www.pandoradiscounts.com"
-const SITE_NAME = "Pandora Discounts"
-const TITLE = "The Pandora Discounts They Don't Advertise"
+const SITE_URL = "https://www.aritziadiscounts.com"
+const SITE_NAME = "Aritzia Discounts"
+const TITLE = "The Aritzia Discounts They Don't Advertise"
 const DESCRIPTION =
-  "Discover how shoppers are unlocking hidden discount codes on charms, bracelets, rings, necklaces, and earrings. Complete 5+ deals in five simple steps and get your discount delivered straight to your inbox."
+  "Discover how shoppers are unlocking hidden discounts on Aritzia's everyday luxury — the Super Puff, Effortless Pants, cozy knits, and Contour bodysuits. Complete 5+ deals in five simple steps and get your discount delivered straight to your inbox."
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -21,15 +21,15 @@ export const metadata: Metadata = {
   description: DESCRIPTION,
   applicationName: SITE_NAME,
   keywords: [
-    "Pandora discount code",
-    "Pandora promo code",
-    "Pandora discounts",
-    "Pandora jewelry deals",
-    "Pandora rewards program",
-    "charm and bracelet deals",
-    "ring and stacking set deals",
-    "necklace and pendant deals",
-    "earring and gift set deals",
+    "Aritzia discount code",
+    "Aritzia promo code",
+    "Aritzia discounts",
+    "Aritzia rewards program",
+    "Aritzia Super Puff deal",
+    "Aritzia Effortless Pant",
+    "Aritzia sweaters",
+    "Aritzia Contour bodysuit",
+    "Aritzia dresses",
   ],
   authors: [{ name: SITE_NAME, url: SITE_URL }],
   creator: SITE_NAME,
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1024,
         height: 1024,
-        alt: "A silver snake-chain charm bracelet with heart and star charms, a stack of silver and rose gold rings, a silver necklace with a heart pendant, and a pair of pave silver hoop earrings arranged on a deep rose pink background",
+        alt: "Flat-lay of a glossy black puffer jacket, a folded cream ribbed knit sweater, black wide-leg trousers, and a black slip dress on a matte black background",
       },
     ],
   },
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
 }
 
 export const viewport: Viewport = {
-  themeColor: "#C4526E",
+  themeColor: "#000000",
   colorScheme: "light",
   width: "device-width",
   initialScale: 1,

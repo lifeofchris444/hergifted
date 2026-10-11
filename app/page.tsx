@@ -1,9 +1,5 @@
-import PandoraRewardLander from "@/components/pandora-lander"
+import AritziaRewardLander from "@/components/aritzia-lander"
 
-export default function Home() {
-  return (
-    <main>
-      <PandoraRewardLander />
-    </main>
-  )
+export default function Page() {
+  return <AritziaRewardLander />
 }
